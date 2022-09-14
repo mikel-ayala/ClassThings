@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+#carsColumn {
+
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+
+}
+img {
+    width: 350px;
+    height: 250px;
+}
+
+article.car {
+    width: 25%;
+    margin: 2.5%;
+}
