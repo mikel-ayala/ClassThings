@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+header h1 {
+  padding: 1%;
+}
+
+#body2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  background-color: #303030;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  height: 60%;
+  border-radius: 4%;
+  padding: 2%;
+  background-color: #424242;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  color: #ffffff;
+}
+
+form section {
+  width: 40%;
+  height: 13%;
+}
+
+input[type="name"], input[type="email"], input[type="password"] {
+  height: 30px;
+  width: 100%;
+  padding: 1%;
+  background-color: #515151;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border: 0;
+  color: #ffffff;
+  outline: none;
+}
+
+input[type="file"] {
+  background-color: #515151;
+  content: 'Selecciona una foto';
+}
+
+input::placeholder {
+  color: #ffffff;
+  opacity: 50%;
+  padding: 3%;
+}
+
+article {
+  flex: 0.75;
+}

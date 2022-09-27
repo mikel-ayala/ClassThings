@@ -64,6 +64,12 @@
             new Car('Mercedes', 'C220', 53, 'https://a.ccdn.es/cnet/contents/media/mercedes__benz/clase_c/1084894.jpg//937x624cut/'), 
             new Car('Audi', 'Q8', 83, 'https://cdn.motor1.com/images/mgl/XL8gv/s3/audi-q8-by-abt.jpg'));
 
+        $cars2 = array('volkswagen' => array('brand' => 'Volkswagen',
+                                            'model' => 'Arteon'),
+            'toyota' => array('brand' => 'Toyota',
+                                'model' => 'Yaris GR'),
+            'nissan' => array('brand' => 'Nissan',
+                                'model' => 'Silvia'));
     ?> 
 
     <section id="carsColumn">
