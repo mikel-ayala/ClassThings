@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 'grey grey grey grey'
+        'red red red blue'
+        'purple brown brown blue'
+        'green brown brown black'
+        'yellow yellow orange black';
+    height: 100vh;
+    width: 100vw;
+}
+
+#grey {
+    background-color: grey;
+    grid-area: grey;
+}
+
+#red {
+    background-color: red;
+    grid-area: red;
+}
+
+#blue {
+    background-color: blue;
+    grid-area: blue;
+}
+
+#purple {
+    background-color: purple;
+    grid-area: purple;
+}
+
+#brown {
+    background-color: brown;
+    grid-area: brown;
+}
+
+#black {
+    background-color: black;
+    grid-area: black;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    grid-area: green;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-area: yellow;
+}
+
+#orange {
+    background-color: orange;
+    grid-area: orange;
+}

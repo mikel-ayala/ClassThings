@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: crimson;
+    text-align: center;
+}
+
+nav {
+    background-color: slategray;
+    color: white;
+}
+
+aside {
+    background-color: cornflowerblue;
+}
+
+#art1 {
+    background-color: coral;
+}
+
+#art2 {
+    background-color: fuchsia;
+}
+
+article h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 1%;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    article {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        width: 100%;
+    }
+
+    aside {
+        flex: 3;
+        order: 2;
+    }
+
+    #art1 {
+        flex: 1;
+        order: 1;
+    }
+
+    #art2 {
+        flex: 1;
+        order: 3;
+    }
+}

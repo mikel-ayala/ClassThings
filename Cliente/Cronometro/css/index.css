@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 'stopwatch stopwatch stopwatch'
+        'start stop reset'
+        'time time clear';
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    grid-area: stopwatch;
+    align-self: center;
+    font-size: 8em;
+}
+
+button {
+    width: 40%;
+    height: 24%;
+    border: 1px solid white;
+}
+
+#strt {
+    grid-area: start;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(123, 178, 123);
+}
+
+#stp {
+    grid-area: stop;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(178, 123, 123);
+}
+
+#rst {
+    grid-area: reset;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(178, 175, 123);
+}
+
+#clr {
+    grid-area: clear;
+    background-color: rgb(123, 148, 178);
+}
+
+#tim {
+    grid-area: time;
+    font-size: 2em;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociacion deportiva</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Asociacion deportiva</h1>
+    </header>
+    <section id="list">
+        <button class="prueba" id="imc">
+            <h1>Calculadora de IMC</h1>
+        </button>
+        <button class="prueba" id="fcm">
+            <h1>Calculadora de FCM</h1>
+        </button>
+        <button class="prueba" id="cat">
+            <h1>Calculadora de categoria</h1>
+        </button>
+        <button class="prueba" id="hor">
+            <h1>Horario de la asociacion</h1>
+        </button>
+    </section>
+
+    <section id="imcForm" class="form">
+        <p>Introduce tu altura en centimetros y tu peso en kilogramos para conocer tu indice de masa corporal</p>
+        <label for="cmImc">Centimetros</label>
+        <input id="cmImc" type="number">
+        <label for="kgImc">Kilogramos</label>
+        <input id="kgImc" type="number">
+        <button id="confirmarImc" class="boton">Confirmar</button>
+        <p id="resultadoImc"></p>
+    </section>
+
+    <section id="fcmForm" class="form">
+        <p>Introduce tu edad y tu sexo para calcular tu frecuencia cardiaca maxima</p>
+        <label for="edFcm">Edad</label>
+        <input id="edFcm" type="number">
+        <label for="seFcm">Sexo</label>
+        <select id="seFcm" name="seFcm">
+            <option value="hombre" selected>Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+        <button id="confirmarFcm" class="boton">Confirmar</button>
+        <p id="resultadoFcm"></p>
+    </section>
+
+    <section id="catForm" class="form">
+        <p>Introduce tu año de nacimiento para conocer tu categoria</p>
+        <label for="edCat">Año de nacimiento</label>
+        <input id="edCat" type="number">
+        <button id="confirmarCat" class="boton">Confirmar</button>
+        <p id="resultadoCat"></p>
+    </section>
+
+    <section id="horForm">
+
+    </section>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

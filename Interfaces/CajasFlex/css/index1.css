@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    height: 97.40vh;
+    width: 99.89vw;
+}
+header {
+    width: 100%;
+    background-color: grey;
+    border: 1px solid red;
+    flex: 0.5;
+}
+nav {
+    width: 100%;
+    background-color: cadetblue;
+    border: 1px solid red;
+    flex: 0;
+}
+section {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    border: 1px solid red;
+    flex: 3;
+}
+article {
+    flex: 2;
+    border: 1px solid red;
+}
+aside {
+    flex: 1;
+    background-color: darkgray;
+    border: 1px solid red;
+}
+footer {
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid red;
+    flex: 0;
+}
